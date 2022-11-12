@@ -21,7 +21,18 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.8.0"
+    "@skpm/builder": "^0.8.0",
+    "@skpm/extract-loader": "^2.0.3",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5"
   },
-  "author": "bye-sharif <sharif.chowdhury@bkash.com>"
+  "resources": [
+    "resources/**/*.js"
+  ],
+  "author": "techsharif <sharif.cse.hstu@gmail.com>",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sketch-module-web-view": "^3.5.1"
+  }
 }
